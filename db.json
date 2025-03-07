@@ -1,0 +1,36 @@
+{
+  "movie": [
+    {
+      "name": "roshniuuuu",
+      "date": "2025-03-19",
+      "number": "34567899008",
+      "person": "2",
+      "price": 200,
+      "id": "9ffa"
+    },
+    {
+      "id": "35f3",
+      "name": "priya",
+      "date": "2025-03-03",
+      "number": "34567899008",
+      "person": "2",
+      "price": 200
+    },
+    {
+      "name": "divya",
+      "date": "2025-03-05",
+      "number": "34567899008",
+      "person": "3",
+      "price": 200,
+      "id": "6fa1"
+    },
+    {
+      "id": "6b09",
+      "name": "roshni sarkar",
+      "date": "2025-03-19",
+      "number": "34567899008",
+      "person": "5",
+      "price": 200
+    }
+  ]
+}
