@@ -5,29 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="admin.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <form class="main">
-        <div class="fl">
-        <p>Enter your name</p>
-<input type="text" id="name" class="">
-<p>Enter your email</p>
-<input type="text" id="email">
+        <div class="fl" data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="3000" >
+        <p data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="3000">Enter your name</p>
+<input type="text" id="name" data-aos="fade-right" data-aos-easing="linear"  data-aos-duration="3000">
+<p data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="3000">Enter your email</p>
+<input type="text" id="email" data-aos="fade-left" data-aos-easing="linear"  data-aos-duration="3000">
 
-<p>Enter your number</p>
-<input type="text" id="number">
+<p data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="3000">Enter your number</p>
+<input type="text" id="number" data-aos="fade-right" data-aos-easing="linear"  data-aos-duration="3000">
 
-<p>Enter your date</p>
-<input type="date" id="date">
+<p data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="3000">Enter your date</p>
+<input type="date" id="date" data-aos="fade-left" data-aos-easing="linear"  data-aos-duration="3000">
 
-<p>Enter people</p>
-<input type="text" id="person">
+<p data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="3000">Enter people</p>
+<input type="text" id="person" data-aos="fade-right" data-aos-easing="linear"  data-aos-duration="3000">
 <br><br>
 
-<input type="submit" value="submit" onclick="return ins()" class="btn">
+<input type="submit" value="submit" onclick="return ins()" class="btn" data-aos="fade-left" data-aos-easing="linear"  data-aos-duration="3000">
 </div>
     </form>
 
     <script src="crudjson.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
 </body>
 </html>

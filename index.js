@@ -29,7 +29,7 @@ localStorage.setItem("lastname",last)
 localStorage.setItem("email",email)
 localStorage.setItem("password",pass)
 
-location.href="homepagge.html"
+location.href="login.html"
 
 return false
 

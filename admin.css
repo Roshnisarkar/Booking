@@ -82,14 +82,14 @@ input[type=text] {
 #name {
     border: 3px solid rgb(51, 102, 51);
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: rgb(224, 255, 198);
 }
 #email {
     border: 3px solid rgb(51, 102, 51);
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: rgb(224, 255, 198);
     
@@ -98,7 +98,7 @@ input[type=text] {
 #number{
     border: 3px solid rgb(51, 102, 51);
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: rgb(224, 255, 198);
 }
@@ -106,7 +106,7 @@ input[type=text] {
 #date {
     border: 3px solid rgb(51, 102, 51);
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: rgb(224, 255, 198);
 }
@@ -114,7 +114,7 @@ input[type=text] {
 #person{
     border: 3px solid rgb(51, 102, 51);
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: rgb(224, 255, 198);
 }
@@ -124,7 +124,7 @@ input[type=text] {
     border: 1px solid whitesmoke;
     border-radius: 10px;
     font-size: 20px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: rgb(199, 245, 245);
 }
@@ -159,4 +159,10 @@ input[type=text] {
    
     color: aliceblue;
     
+}
+
+.fll{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
 }
