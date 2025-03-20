@@ -133,6 +133,8 @@ background-color:rgb(113, 118, 143);
     height: 70vh;
     background-color: rgb(65, 60, 69);
   }
+
+
   
   .heading-text{
     /* text-align: center; */
@@ -176,6 +178,13 @@ background-color:rgb(113, 118, 143);
     border-radius: 10px;
   
   }
+
+input[type=text]{
+  text-align: center;
+
+}
+
+
   #lname:focus{
     outline:none;
     border-color: #8484f6;;

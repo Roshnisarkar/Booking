@@ -6,20 +6,30 @@ let signup =()=>{
     let pass=document.querySelector("#pass-inp").value
     let er=document.querySelector("#er")
     if(nam==""){
+         er.innerHTML.color="red"
         er.innerHTML="fill the input field"
         return false
     }
 else if( last=="" ){
+     er.innerHTML.color="red"
     er.innerHTML="fill the input field"
     return false
 }
 
 else if( email=="" ){
+     er.innerHTML.color="red"
     er.innerHTML="fill the input field"
     return false
 }
-else if( pass=="" ){
+if( pass=="" ){
     er.innerHTML="fill the input field"
+     er.innerHTML.color="red"
+    return false
+}
+
+else if(!(pass.match(/[1234567890]/)&&pass.match(/[!@#$%^&*()]/)&&pass.match(/[a-z]/)&&pass.match(/[A-Z]/)) ){
+    er.innerHTML="Please create strong password"
+    er.innerHTML.color="red"
     return false
 }
 
