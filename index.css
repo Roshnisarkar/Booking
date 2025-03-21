@@ -101,11 +101,29 @@ border-color: #8484f6;;
   padding-left: 30px;
 }
 
+#lastname[type=text]{
+  text-align: center;
+  font-size: 15px;
+   color: rgb(21, 20, 20);
+}
+
+#firstname[type=text]{
+  text-align: center;
+  font-size: 15px;
+   color: rgb(21, 20, 20);
+}
+
 #lastname::placeholder{
   padding-left: 30px;
 }
 
 
+#email-inp[type=text]{
+  text-align: center;
+  font-size: 15px;
+   color: rgb(21, 20, 20);
+
+}
 #email-inp:focus{
 outline:none;
 
@@ -142,6 +160,12 @@ outline:none;
   border-radius: 10px;
 
 }
+#pass-inp[type=text]{
+  text-align: center;
+  font-size: 15px;
+   color: rgb(21, 20, 20);}
+
+
 
 #email-inp::placeholder{
   padding-left: 30px;
